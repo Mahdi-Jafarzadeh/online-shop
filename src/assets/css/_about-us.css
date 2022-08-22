@@ -1,0 +1,11 @@
+.text-about-section{
+    font-size: 32px;
+    right: 0;
+    border-bottom: 3px solid #ff0000;
+    padding-bottom: 5px;
+}
+.detitel-abou-section{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+}

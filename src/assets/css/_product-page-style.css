@@ -1,0 +1,159 @@
+/* breadcrumb style */
+.custom-breadcrumb{
+    margin: 0;
+    background-color: transparent;
+    font-size: 16px;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">" !important;
+} 
+.product-page-rate i{
+    color: gold;
+}
+.product-page-price span{
+    font-size: 18px;
+}
+.product-page-price s{
+    color: rgb(166, 9, 9);
+}
+.product-page-title{
+    font-size: 25px;
+}
+.describe{
+    font-size: 17px;
+    line-height: 36px;
+}
+.product-page-title .fa-heart{
+    color: rgb(164, 22, 22);
+}
+.product-page-title .fa-bell{
+    color: rgb(201, 201, 23);
+}
+.p-benfit{
+    font-size: 16px;
+}
+.brand-cat{
+    font-size: 15px;
+}
+.benfit-list li a i{
+    font-size: 10px;
+    color: rgb(53, 53, 199);
+}
+/* product describtion */
+.custom-nav-tabs-product-page .nav-link.active, .custom-nav-tabs-product-page .nav-item.show .nav-link{
+    border-top: 2px solid rgb(240, 36, 36);
+}
+.custom-nav-tabs-product-page .nav-link{
+    font-size: 16px;
+} 
+.custom-tab-pane-pro h5,.custom-tab-pane-pro-deatils h5{
+    color: #848181;
+}
+.product-descr{
+    background-color: #fafafa;
+    font-size: 14px;
+    line-height: 35px;
+}
+.product-all-rate p{
+    font-size: 14px;
+}
+.progress-product-wrapper{
+    background-color: #fafafa;
+}
+.product-main-desc{
+    font-size: 14px;
+    line-height: 35px;
+}
+.product-desc-step li{
+    border-right: 2px solid #848181;
+    font-size: 17px;
+    line-height: 45px;
+    color: rgb(71, 67, 67);
+}
+.product-desc-step li i{
+    font-size: 18px;
+    top: 16px;
+    right: -10.05px;
+    color: rgb(71, 67, 67);
+}
+.p-ing-wrapper{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.custom-tab-pane-pro-deatils ul li .key{
+    background-color: #f7f6f6;
+    flex: 0 0 20%;
+    height: 25px;
+    font-size: 15px;
+}
+.custom-tab-pane-pro-deatils ul li .value{
+    background-color: #f7f6f6;
+    flex: 0 0 78%;
+    height: 25px;
+    font-size: 15px;
+}
+.custom-tab-pane-pro-deatils ul p{
+    font-size: 16px;
+}
+.custom-tab-pane-pro-deatils ul p i{
+    vertical-align: -3px;
+}
+.add-comment p:first-child{
+    font-size: 18px;
+    color: #505050;
+}
+.add-comment p:nth-child(2){
+    color: #505050;
+}
+.add-comment a i{
+    vertical-align: -3px;
+}
+.custom-media-prodact h5{
+    font-size: 16px;
+}
+.user-deatils p{
+    font-size: 15px;
+}
+.bg-custom{
+    font-size: 15px;
+}
+.pro-supplier,.pro-color{
+    font-size: 14px;
+}
+.user-pro-comment p{
+    font-size: 18px;
+}
+.benfit-comm-title{
+    font-size: 17px;
+}
+.user-pro-comment ul.nav li{
+    font-size: 14px;
+}
+.user-pro-comment ul.nav li i{
+    font-size: 8px;
+    color: #2381b1;
+}
+.comment-vote span{
+    font-size: 14px;
+    padding: 4px 10px;
+}
+.comment-vote{
+    font-size: 18px;
+}
+.dis-like{
+    vertical-align: -4px;
+}
+.add-comments p{
+    font-size: 18px;
+}
+.add-comments p i{
+    font-size: 36px;
+    vertical-align: -8px;
+}
+.x-email{
+    direction: rtl;
+}
+/* zoomy slider */
+.zoom-mousemove{
+    border: none !important;
+}

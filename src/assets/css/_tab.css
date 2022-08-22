@@ -1,0 +1,107 @@
+.custom-nav-tabs .nav-link{
+    border: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 15px;
+    color: rgb(59, 57, 57);
+}
+.custom-nav-tabs .nav-link.active, .custom-nav-tabs .nav-item.show .nav-link {
+    color: #f14b0f;
+    background-color: transparent;
+    border-color: transparent;
+}
+.custom-nav-tabs .nav-link:hover, .custom-nav-tabs .nav-link:focus{
+    border-color: transparent;
+}
+.offer-dd a{
+    font-size: 16px;
+    color: #271bd3;
+}
+.offer-dd .offer-rating i{
+    color: #ccae04;
+    font-size: 16px;
+}
+.offer-dd .offer-price s{
+    color: #f14b0f;
+    font-size: 16px;
+}
+.offer-dd .offer-price span{
+    font-size: 16px;
+    color: #565555;
+}
+.count-down-timer{
+    font-size: 17px;
+    color: #565555;
+}
+.count-down-timer span{
+    background-color: #efefef;
+    margin: 8px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+
+}
+.count-down-timer #demo #day,.count-down-timer #demo #hours,.count-down-timer #demo #minutes,.count-down-timer #demo #second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offer-ex-text{
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#day,#hours,#minutes,#second{
+    position: relative;
+}
+#demo #day::after{
+    content: "روز";
+    position: absolute;
+    top: 30px;
+    left:5px;
+}
+#demo #hours::after{
+    content: "ساعت";
+    position: absolute;
+    top: 33px;
+    left:-5px;
+}
+#demo #minutes::after{
+    content: "دقیقه";
+    position: absolute;
+    top: 33px;
+    left:0;
+}
+#demo #second::after{
+    content: "ثانیه";
+    position: absolute;
+    top: 33px;
+    left:0;
+}
+.offer-prodact-img{
+    overflow: hidden;
+    height: 280px;
+}
+.offer-prodact-img img{
+    width: 260px;
+}
+.offer-prodact-img:hover .first-img,.offer-prodact-img:hover .second-img{
+    transform: translateY(-285px);
+}
+.offer-prodact-img .first-img, .offer-prodact-img .second-img{
+    transition: 0.5s ease;
+}
+.s-o-box-shadow{
+    box-shadow: 0 0 1px 1px #efefef;
+    z-index: 1;
+}
+.offer-section-title{
+    right: 0;
+    border-bottom: 2px solid red;
+    padding-bottom: 3px;
+    font-size: 18px;
+}

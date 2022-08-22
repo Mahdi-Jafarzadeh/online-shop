@@ -1,0 +1,130 @@
+.bg-navbar{
+    background-color: #232f3e;
+    color: #fff;  
+}
+.custom-navbar,.bg-navbar p{
+    font-size: 14px;
+}
+.custom-navbar a{
+    padding: 10px;
+}
+.custom-navbar .border-end{
+    border-color: #7a7878 !important;
+}
+.text-in-navbar{
+    padding-top: 13px;
+}
+.custom-btn-font-size{
+    font-size: 14px;
+}
+.shop-card{
+    background-color: transparent;
+}
+.shop-card span{
+    font-size: 16px;
+}
+.shop-card i{
+    vertical-align: -2px;
+}
+.coustom-dropdown-toggle::after{
+    vertical-align: 0;
+}
+.basket a img{
+    width: 64px;
+    height: 64px;
+}
+.basket{
+    font-size: 14px;
+    width: 230px !important;
+}
+.custom-navbar-nav{
+    font-size: 15px;
+}
+.custom-navbar-nav .nav-item{
+    position: unset;
+}
+.custom-navbar-nav .nav-item .dropdown-menu{
+    border-radius: 0;
+    top: 54px;
+}
+.dropdown-image img{
+    position: absolute;
+    left: 58px;
+    bottom: -85px;
+}
+.dropdown-image-1 img{
+    position: absolute;
+    left: 58px;
+    bottom: -4px;
+}
+.dropdown-image-2 img{
+    position: absolute;
+    left: 94px;
+    bottom: 29px;
+}
+.dropdown-image-3 img{
+    position: absolute;
+    left: 70px;
+    bottom: 9px;
+}
+.dropdown-image-4 img{
+    position: absolute;
+    left: 65px;
+    bottom: 7px;
+}
+.dropdown-image-5 img{
+    position: absolute;
+    left: 58px;
+    bottom: -4px;
+}
+.dropdown-image ul.nav li a{
+    color: rgb(103, 98, 98) !important;
+    font-size: 14px;
+}
+.dropdown-image ul.nav li a i{
+    vertical-align: -2px;
+}
+.dropdown-image ul.nav li a{
+    transition: 0.3s ease-in-out;
+}
+.dropdown-image ul.nav li a:hover{
+    margin-right: 7px;
+    color: rgb(163, 82, 82) !important;
+}
+.custom-navbar-toggler{
+    border: none;
+}
+.custom-navbar-toggler:focus{
+    outline: none;
+}
+::-webkit-input-placeholder{
+    font-size: 14px;
+}
+.login-form input[type=email],.login-form input[type=password]{
+    border: none;
+    border-bottom: 2px solid #efefef;
+    border-radius: 0;
+}
+.login-form label{
+    font-size: 14px;
+}
+#login-form h5{
+    font-size: 18px;
+}
+#login-form .modal-footer a{
+    font-size: 16px;
+    color: rgb(36, 192, 192);
+    text-decoration: none;
+}
+.login-btn i{
+    vertical-align: -4px;
+}
+.login-btn span{
+    font-size: 16px;
+}
+#exampleInputPassword1::-webkit-input-placeholder,#exampleInputEmail1::-webkit-input-placeholder{
+    font-size: 17px;
+}
+.checkbox-customize{
+    vertical-align: -2px;
+}

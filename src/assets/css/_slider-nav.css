@@ -1,0 +1,71 @@
+.owl-prev{
+    position: absolute;
+    top: 190px;
+    right: -25px;
+    font-size: 37px !important;
+}
+.owl-next{
+    position: absolute;
+    top: 190px;
+    left: -25px;
+    font-size: 37px !important;
+}
+/* shiping */
+.shiping-wrapper i{
+    font-size: 40px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 8px;
+    color: #ae0909;
+}
+.shiping-wrapper i:hover{
+    color: #6c1414;
+}
+.shiping-wrapper p{
+    font-size: 14px; 
+}
+/* categouries */
+.cat-desc p{
+    font-size: 12px;
+}
+.cat-desc img{
+    width: 10px;
+}
+.cat-hover{
+    transition: 0.5s ease;
+}
+.cat-hover:hover{
+    box-shadow: 0 0 7px 1px #ccc;
+    z-index: 1;
+}
+/* slider scroling */
+.p-title{
+    font-size: 14px;
+}
+.custom-card{
+    border: none;
+    border-radius: 0;
+}
+.custom-card:hover{
+    box-shadow: 0 0 1px 1px #aea9a9;
+}
+.swiper-button-next,.swiper-button-prev{
+    color: #000;
+}
+[dir='rtl'].slick-prev:before{
+    color: #000 !important;
+}
+.slick-prev:before, .slick-next:before{
+    color: #000 ;
+    font-size: 22px;
+}
+/* banner */
+.banner-sec-1 .banner-img-hover{
+    overflow: hidden;
+}
+.banner-sec-1 .banner-img-hover img{
+    transition: 0.5s ease-in;
+}
+.banner-sec-1 .banner-img-hover:hover img{
+    transform: scale(1.05);
+}
